@@ -152,6 +152,12 @@ h2 {
     color: white;
 }
 
+.btn-tertiary {
+    background: #f093fb;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
 .quote {
     background: linear-gradient(135deg, #f0f4ff 0%, #e8eef8 100%);
     padding: 30px;
