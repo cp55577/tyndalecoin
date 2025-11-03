@@ -121,11 +121,20 @@ h2 {
     margin-top: 5px;
 }
 
+.token-trade {
+    margin-bottom: 40px;
+}
+
+.token-trade .info-grid {
+    margin-bottom: 30px;
+}
+
 .link-buttons {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .btn {
