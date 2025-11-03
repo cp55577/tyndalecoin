@@ -23,31 +23,70 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
     background: linear-gradient(135deg, #8B2635 0%, #A03020 50%, #D4AF37 100%);
     color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    min-width: 250px;
 }
 
 .coin-image img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    border: 5px solid white;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    margin-bottom: 20px;
+    border: 4px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    flex-shrink: 0;
+}
+
+.coin-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    margin: 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    line-height: 1.2;
 }
 
 .symbol {
     font-size: 1.5em;
     font-weight: bold;
     opacity: 0.9;
+    margin: 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-buttons .btn {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    white-space: nowrap;
 }
 
 main {
@@ -119,14 +158,6 @@ h2 {
     word-break: break-all;
     display: block;
     margin-top: 5px;
-}
-
-.token-trade {
-    margin-bottom: 40px;
-}
-
-.token-trade .info-grid {
-    margin-bottom: 30px;
 }
 
 .link-buttons {
@@ -347,8 +378,40 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .header-left {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .coin-image img {
+        margin-bottom: 15px;
+    }
+    
     header h1 {
         font-size: 2em;
+    }
+    
+    .header-right {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .header-buttons {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .header-buttons .btn {
+        width: 100%;
+        text-align: center;
     }
     
     main {
