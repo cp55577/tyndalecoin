@@ -183,6 +183,16 @@ h2 {
     box-shadow: 0 10px 20px rgba(212, 175, 55, 0.4);
 }
 
+.btn-quaternary {
+    background: #A03020;
+    color: white;
+}
+
+.btn-quaternary:hover {
+    background: #8B2635;
+    box-shadow: 0 10px 20px rgba(160, 48, 32, 0.4);
+}
+
 .bsb-app {
     background: #FAF9F6;
     padding: 30px;
