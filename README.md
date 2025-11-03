@@ -15,6 +15,7 @@ Tyndale Coin ($TYN) is a token on the Base network created to honor William Tynd
 
 ## Links
 
+- **Uniswap:** [Trade on Uniswap](https://app.uniswap.org/explore/tokens/base/0x73eA9374134709355fDF4cF91BB6d4cd61695B07?inputCurrency=NATIVE)
 - **Clanker:** [View on Clanker](https://www.clanker.world/clanker/0x73eA9374134709355fDF4cF91BB6d4cd61695B07)
 - **Gecko Terminal:** [View on Gecko Terminal](https://www.geckoterminal.com/base/pools/0xa6f7fd3d8949d182287925f7ca297afe52c9acec6517956ffce57830b44a119a)
 
